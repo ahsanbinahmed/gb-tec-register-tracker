@@ -8,26 +8,9 @@ A current TEC Register snapshot shows the queue at one point in time. This proje
 
 Tracking began on **9 August 2026**. The local archive reached **51 successful snapshots by 30 September 2026**. Two collection dates were missed because the NESO API endpoint could not be resolved: 19 August and 26 September.
 
-## Initial baseline: 9 August 2026
+## Historical archive policy
 
-The first snapshot contained **2,212 agreement rows** representing **2,069 unique projects**.
-
-A key methodological issue was identified early: staged projects can appear on multiple rows while repeating cumulative project capacity. Simply summing every row inflated the apparent queue from **691.0 GW** on a project-deduplicated basis to **741.6 GW**. The analysis therefore separates project-level capacity from row/stage-level gate movements.
-
-On the deduplicated baseline:
-
-| Gate | Projects | Capacity | Share of capacity |
-|---|---:|---:|---:|
-| Unassigned | 1,283 | 403.3 GW | 58.4% |
-| Gate 1 | 716 | 277.1 GW | 40.1% |
-| Gate 2 | 70 | 10.6 GW | 1.5% |
-
-Two early patterns stood out:
-
-- **Battery storage:** 28.2% of total queue capacity, but 86.6% of Gate 2 capacity.
-- **Scotland:** 25.1% of total queue capacity, but 74.6% of Gate 2 capacity.
-
-These are snapshot observations, not causal conclusions.
+Tracking began in **August 2026**, before the public weekly series. The underlying August snapshots and derived historical analysis are intentionally retained privately rather than published in this repository. This preserves the value of the original archive while the public repository focuses on curated weekly updates from September 2026 onward.
 
 ## What the tracker monitors
 
@@ -61,11 +44,13 @@ The purpose is not to infer a reason for every register change. The tracker reco
 │   └── AI_ASSISTANCE.md
 ├── scripts/
 │   └── README.md
+├── weekly-updates/
+│   └── README.md
 └── data/
     └── README.md
 ```
 
-The working archive also contains the historical CSV snapshots, PowerShell/Python analysis scripts, generated reports and visual assets. These will be added selectively rather than dumping the entire working folder into the public repository.
+The working archive also contains historical CSV snapshots, PowerShell/Python analysis scripts, generated reports and visual assets. **Pre-September raw snapshots and derived historical outputs are intentionally kept private.** Public updates are curated summaries rather than a mirror of the private archive.
 
 ## Methodology and reproducibility
 
@@ -83,6 +68,10 @@ Source data: **NESO Transmission Entry Capacity (TEC) Register**.
 
 This is an independent analytical project and is not affiliated with or endorsed by NESO. Users should refer to NESO's current published data and documentation for authoritative information.
 
+## Weekly updates
+
+Public weekly summaries are available in [weekly-updates/](weekly-updates/). The first public series covers September 2026 onward; the August archive remains private.
+
 ## Status
 
-**Active.** Intended to be updated as new TEC Register snapshots and material changes become available.
+**Active.** Intended to be updated weekly when new TEC Register snapshots and material changes are available.
