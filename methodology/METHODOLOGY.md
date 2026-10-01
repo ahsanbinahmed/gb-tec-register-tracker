@@ -4,7 +4,7 @@
 
 The working process downloads the NESO TEC Register and stores a date-stamped CSV snapshot. Keeping successive snapshots makes it possible to analyse changes that cannot be reconstructed reliably from a single current-state download.
 
-The archive began on 9 August 2026.
+The archive began in August 2026. Pre-September snapshots are retained privately.
 
 ## 2. Why deduplication is necessary
 
@@ -12,15 +12,7 @@ The TEC Register can contain multiple agreement/stage rows for one project. In t
 
 Therefore, summing that field across all rows can double count staged projects.
 
-For the 9 August baseline:
-
-- agreement rows: 2,212
-- unique projects: 2,069
-- raw row-summed capacity: 741,576 MW
-- deduplicated project capacity: 691,001 MW
-- apparent double counting removed: 50,575 MW
-
-The snapshot analysis therefore collapses records to project level when reporting total project capacity.
+The private August archive demonstrated that raw row-level summation can materially overstate project-level queue capacity because staged projects can repeat cumulative capacity. Exact pre-September historical values are intentionally not published. The public analysis therefore collapses records to project level when reporting total project capacity.
 
 ## 3. Project identification
 
