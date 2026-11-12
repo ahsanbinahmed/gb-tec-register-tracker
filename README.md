@@ -6,7 +6,7 @@ A longitudinal tracker of changes in NESO's Transmission Entry Capacity (TEC) Re
 
 A current TEC Register snapshot shows the queue at one point in time. This project preserves successive snapshots so that changes can be reconstructed: projects moving between Unassigned, Gate 1 and Gate 2; projects entering or leaving the register; connection-date changes; and shifts in the composition of the queue.
 
-Tracking began on **9 August 2026**. The local archive reached **51 successful snapshots by 30 September 2026**. Two collection dates were missed because the NESO API endpoint could not be resolved: 19 August and 26 September.
+Tracking began on **9 August 2026**. The local archive reached **94 successful snapshots by 12 November 2026**. Two collection dates were missed because the NESO API endpoint could not be resolved: 19 August and 26 September.
 
 ## Historical archive policy
 
@@ -70,7 +70,7 @@ This is an independent analytical project and is not affiliated with or endorsed
 
 ## Weekly updates
 
-Public weekly summaries are available in [weekly-updates/](weekly-updates/). The first public series covers September 2026 onward; the August archive remains private.
+Public weekly summaries are available in [weekly-updates/](weekly-updates/). The latest published comparison covers [11 October–12 November 2026](weekly-updates/2026-10-11_to_2026-11-12.md); August raw snapshots remain private.
 
 ## Status
 
