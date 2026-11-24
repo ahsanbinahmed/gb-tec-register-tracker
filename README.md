@@ -58,9 +58,8 @@ See [methodology/METHODOLOGY.md](methodology/METHODOLOGY.md) for the treatment o
 
 ## AI assistance
 
-The automation and analysis workflow was developed with substantial AI assistance. The project owner initiated the tracking project, selected the questions to investigate, maintained the archive, reviewed outputs and uses the results for ongoing GB energy-market analysis. The repository does **not** claim that all code was independently authored by the project owner.
+The automation and coding was developed with  AI assistance. The project owner initiated the tracking project, selected the questions to investigate, maintained the archive, reviewed algorithm and outputs and uses the results for ongoing GB energy-market analysis. The repository does **not** claim that all code was independently authored by me.
 
-See [methodology/AI_ASSISTANCE.md](methodology/AI_ASSISTANCE.md).
 
 ## Data source
 
