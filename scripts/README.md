@@ -10,5 +10,3 @@ Planned components:
 - project-level deduplication analysis
 - snapshot-to-snapshot comparison
 - chart-data preparation
-
-The original working scripts were developed with substantial AI assistance. See [../methodology/AI_ASSISTANCE.md](../methodology/AI_ASSISTANCE.md).
